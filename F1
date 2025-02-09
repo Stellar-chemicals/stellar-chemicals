@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellar Chemicals</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; background-color: #f4f4f4; }
+        header { background: #0073e6; color: white; padding: 15px; font-size: 24px; }
+        section { padding: 20px; }
+        .home, .products, .contact { background: white; margin: 20px; padding: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        .home { background: linear-gradient(to right, #0073e6, #00aaff); color: white; padding: 40px; }
+        .product-gallery { display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; }
+        .product-item { width: 250px; background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        .product-item img { width: 100%; border-radius: 8px; }
+        footer { background: #333; color: white; padding: 10px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        Stellar Chemicals
+    </header>
+    
+    <section class="home">
+        <h1>Welcome to Stellar Chemicals</h1>
+        <p>Providing innovative and high-quality cleaning solutions for homes and businesses.</p>
+        <p>Our products are designed to make your cleaning tasks effortless and efficient.</p>
+    </section>
+    
+    <section class="products">
+        <h3>Our Products</h3>
+        <div class="product-gallery">
+            <div class="product-item">
+                <img src="https://via.placeholder.com/250" alt="Tile Cleaner">
+                <h4>Tile Cleaner</h4>
+                <p>Removes stains and restores shine.</p>
+            </div>
+            <div class="product-item">
+                <img src="https://via.placeholder.com/250" alt="Car Wash">
+                <h4>Car Wash</h4>
+                <p>Gives your car a sparkling clean look.</p>
+            </div>
+            <div class="product-item">
+                <img src="https://via.placeholder.com/250" alt="Multipurpose Cleaner">
+                <h4>Multipurpose Cleaner</h4>
+                <p>Effective for various surfaces.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact">
+        <h3>Contact Us</h3>
+        <p>Email: contact@stellarchemicals.com</p>
+        <p>Phone: +123 456 7890</p>
+    </section>
+    
+    <footer>
+        &copy; 2025 Stellar Chemicals. All rights reserved.
+    </footer>
+</body>
+</html>
